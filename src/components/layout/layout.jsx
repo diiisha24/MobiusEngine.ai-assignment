@@ -1,6 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-import Footer from '../footer';
+import Footer from './footer';
 
 const Layout = () => {
   return (
@@ -11,7 +11,7 @@ const Layout = () => {
       </header>
 
       {/* Main content (Outlet) */}
-      <main className="p-4">
+      <main className="p-4 flex flex-col items-center justify-center"> 
         <Outlet />
       </main>
 
