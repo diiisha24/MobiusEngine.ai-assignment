@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
+import Footer from '../footer';
 
 const Layout = () => {
   return (
@@ -15,9 +16,10 @@ const Layout = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-200 p-4 text-center">
+      {/* <footer className="bg-gray-200 p-4 text-center">
         <p>Footer</p>
-      </footer>
+      </footer> */}
+      <Footer />
     </div>
   );
 };

@@ -1,2 +1,14 @@
 @import "tailwindcss";
 
+*{
+    font-family: "DM Sans", sans-serif;
+    /* color: var(--color-primary); */
+}
+
+@theme {
+    --color-primary: #0649E7;
+    --color-secondary: #022183,
+    --color-light: #FEFEFE,
+    --color-lightPurple: #EBF1FF,
+    --color-dark: #101010,
+}
